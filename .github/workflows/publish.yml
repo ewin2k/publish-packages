@@ -14,6 +14,6 @@ jobs:
         with:
           username: ewin2k
           password: ${{ secrets.GITHUB_TOKEN }}
-          registry: GHCR
+          registry: ghcr.io
           repository: ewin2k/publish-packages/game
           tag_with_sha: true
